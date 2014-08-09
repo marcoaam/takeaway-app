@@ -4,7 +4,7 @@ class Order
 
 	include ItemContainer
 
-	attr_reader :customer
+	attr_reader :customer, :time
 
 	def initialize(customer)
 		@customer = customer
@@ -17,6 +17,16 @@ class Order
 
 	def list_of_prices
 		@list_of_items.map { |item| item.price }
+	end
+
+	def receive(items, takeaway)
+		add_list_of(items)
+		@time = save_time
+		takeaway.confirm(self)
+	end
+
+	def save_time
+		Time.now
 	end
 
 end
