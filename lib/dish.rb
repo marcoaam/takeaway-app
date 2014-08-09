@@ -4,7 +4,7 @@ class Dish
 	attr_reader :name, :price
 
 	def initialize(name, price)
-		@name = name
+		@name = name.downcase.to_sym
 		@price = price
 	end
 

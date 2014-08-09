@@ -5,7 +5,7 @@ describe Dish do
 	let(:burger) { Dish.new('Burger', 5.50) }
 
 	it 'is created with a name and price' do
-		expect(burger.name).to eq 'Burger'
+		expect(burger.name).to eq :burger
 		expect(burger.price).to eq 5.50
 	end
 
