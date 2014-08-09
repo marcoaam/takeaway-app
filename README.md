@@ -7,17 +7,17 @@ The main goal for this test was to write clean code, object design, comunication
 
 Classes
 --------
--Customer
--Menu
--Order
--Restaurant
+- Customer
+- Menu
+- Order
+- Restaurant
 
 Modules
 ----------
--Item Container
+- Item Container
 
 Twilio file
 -------------
--Text Messaging feature
+- Text Messaging feature
 
 
