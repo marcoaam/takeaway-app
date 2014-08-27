@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/marcoaam/takeaway-app/badges/gpa.svg)](https://codeclimate.com/github/marcoaam/takeaway-app) [![Test Coverage](https://codeclimate.com/github/marcoaam/takeaway-app/badges/coverage.svg)](https://codeclimate.com/github/marcoaam/takeaway-app)
+
 Takeaway Restaurant App
 ============
 
