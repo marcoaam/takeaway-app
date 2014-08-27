@@ -34,4 +34,15 @@ describe Restaurant do
 		takeaway.confirm(order)
 	end
 
+	it 'calculate the delivery time' do
+		time = Time.mktime(2014,1,1)
+		expect(takeaway.calculate_delivery(time)).to eq '01:00:00'
+	end
+
+	it 'creates a message to be send' do
+		time = Time.mktime(2014,1,1)
+		expect(takeaway).to receive(:calculate_delivery).and_return "Thank you! Your order was placed and will be delivered before 01:00:00"
+		takeaway.message(time)
+	end
+
 end
