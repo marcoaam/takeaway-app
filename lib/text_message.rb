@@ -11,9 +11,10 @@ module TextMessaging
 	def send_sms(phone_number, text)
 		account_setup
 		@client.account.messages.create(
-		:from => '+441548312044',
-	  :to => phone_number,
-	 	:body => text)
+			:from => '+441548312044',
+			:to => phone_number,
+			:body => text
+		)
 	end
 
 end
