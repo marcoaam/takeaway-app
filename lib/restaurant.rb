@@ -30,8 +30,11 @@ class Restaurant
 	end
 
 	def calculate_delivery(time)
-		time_plus1 = time + 3600
-		time_plus1.to_s.split(" ").[]1
+		add_one_hour(time).to_s.split(" ").[]1
+	end
+
+	def add_one_hour(time)
+		time + 3600
 	end
 
 end

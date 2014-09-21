@@ -5,7 +5,7 @@ Takeaway Restaurant App
 
 Week 4 test at Makers Academy - Object oriented model of a takeaway restaurant using RSpec for TDD.
 
-The main goal for this test was to write clean code, object design, comunication and TWILIO API integration.
+The main goal for this test was to write clean code, object oriented application design, comunication and TWILIO API integration.
 
 How to use
 ----------
